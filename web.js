@@ -163,22 +163,25 @@ function showRes() {
         alert("Mắt m bình thường")
     }
     if (wrong.includes("12")) {
-        alert("nghiêm túc dùm");
+        alert("TẠI SAO BẠN TRẢ LỜI SAI CÂU ĐẦU  , 12 - Tất cả mọi người, kể cả người bị mù màu toàn bộ đều có thể nhìn thấy số 12.");
+
+
     }
     if (wrong.includes("8")) {
-        alert("mù cmnr");
+        alert("TẠI SAO BẠN TRẢ LỜI SAI CÂU HAI  ,Những người bị mù màu đỏ – xanh lục sẽ nhìn thấy số 3.");
     }
     if (wrong.includes("29")) {
-        alert("mù cmnr");
+        alert("TẠI SAO BẠN TRẢ LỜI SAI CÂU 3  ");
     }
     if (wrong.includes("5")) {
-        alert("mù cmnr");
+        alert("TẠI SAO BẠN TRẢ LỜI SAI CÂU 4 ,,Những người bị mù màu đỏ – xanh lục sẽ nhìn thấy số 2.Không có gì – Những người bị mù màu toàn bộ sẽ không nhìn thấy số");
     }
     if (wrong.includes("3")) {
-        alert("mù cmnr");
+        alert("TẠI SAO BẠN TRẢ LỜI SAI CÂU 5  ,Những người bị mù màu đỏ – xanh lục sẽ nhìn thấy số 8");
     }
     if (wrong.includes("15")) {
-        alert("mù cmnr");
+        alert("TẠI SAO BẠN TRẢ LỜI SAI CÂU 6 ,Số 2, không rõ số 6 – Những người bị mù màu xanh lục (deuteranopia) sẽ nhìn thấy số 2. Những người bị mù màu xanh lục nhẹ (deuteranomaly) có thể cũng nhìn thấy số 6 mờ mờ.Số 6, không rõ số 2 – Những người bị mù màu đỏ (protanopia) sẽ nhìn thấy số 6. Những người bị mù màu đỏ nhẹ (prontanomaly) có thể cũng nhìn thấy số 2 mờ mờ.");
     }
+    
 
 }
