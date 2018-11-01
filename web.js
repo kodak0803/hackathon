@@ -171,7 +171,7 @@ function showRes() {
         alert("TẠI SAO BẠN TRẢ LỜI SAI CÂU HAI  ,Những người bị mù màu đỏ – xanh lục sẽ nhìn thấy số 3.");
     }
     if (wrong.includes("29")) {
-        alert("TẠI SAO BẠN TRẢ LỜI SAI CÂU 3  ");
+        alert("TẠI SAO BẠN TRẢ LỜI SAI CÂU 3 ,Những người bị mù màu đỏ – xanh lục sẽ nhìn thấy số 70. ");
     }
     if (wrong.includes("5")) {
         alert("TẠI SAO BẠN TRẢ LỜI SAI CÂU 4 ,,Những người bị mù màu đỏ – xanh lục sẽ nhìn thấy số 2.Không có gì – Những người bị mù màu toàn bộ sẽ không nhìn thấy số");
