@@ -1,0 +1,148 @@
+.heading{
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    font-size: 10mm;
+    font-family: 'Mali', cursive;
+    border-style: double;
+    border: 2px solid ;
+}
+#typed{
+    white-space: pre;
+    display: none;
+    animation: blink 0.7s infinite;
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    
+}
+.paragraph{
+    font-size: 5mm;
+    font-family: 'Niramit', sans-serif;
+    padding-left: 20px;
+}
+.note{
+    font-size: 5mm;
+    text-transform: capitalize;
+}
+.background{
+    background: linear-gradient(#66ccff 0%, #ffffff 60%);
+    height: 400px;
+}
+
+.imagine{
+    width: 250px;
+    height:200px;
+    display: flex;
+    margin: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    text-align: center;
+    background: black;
+}
+
+p {
+    color: #ddd;
+    font-family: Helvetica;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Helvetica;
+}
+
+a,
+span {
+    font-size: 20px;
+}
+
+svg {
+    width: 130px;
+    height: 40px;
+}
+.highlight {
+    max-width: 960px;
+    margin:0 auto;
+}
+
+.round a {
+    color: crimson;
+}
+
+.round .b {
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 890px;
+    position: relative;
+    overflow: hidden;
+    transition: color .5s;
+}
+
+.round .b:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: crimson;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.round .b:nth-child(1):before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+.round .b:nth-child(1):hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+.round .b:nth-child(2):before {
+    left: -30px;
+    bottom: 100%;
+    transition: all .7s;
+}
+
+.round .b:nth-child(2):hover:before {
+    bottom: -50px;
+}
+
+.round .b:nth-child(3):before {
+    top: 0;
+    left: -200%;
+    transition: all .7s;
+}
+
+.round .b:nth-child(3):hover:before {
+    top: -30px;
+    left: -30px;
+}
+.video{
+    text-align: center;
+    vertical-align: middle;
+}
+.text{
+    text-align: center;
+    text-transform: inherit;
+    text-transform: uppercase;
+    font-size: 5mm;
+    font-family: 'Montserrat', sans-serif;
+}
